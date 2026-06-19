@@ -466,3 +466,4 @@ class GATTrainer:
         trainer._reference_node_features = checkpoint.get("reference_node_features", None)
 
         return trainer
+
