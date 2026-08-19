@@ -218,5 +218,3 @@ def get_edge_index_and_features(
                 edge_attr[:, col] /= col_max
     
     return edge_index, edge_attr
-
-

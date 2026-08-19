@@ -67,4 +67,3 @@ async def get_user_profile(user_id: int, current_user: Dict[str, Any] = Depends(
         "profile_picture_url": user["profile_picture_url"],
         "created_at": user["created_at"]
     }
-

@@ -276,5 +276,3 @@ class EnsembleDetector:
             results.append(result)
 
         return results
-
-
